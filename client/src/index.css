@@ -1,0 +1,95 @@
+@media screen and (min-width: 415px){
+  .site-container {
+    flex-direction: row;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.heading{
+  background-color: #203040;
+  color: coral;
+  display: flex;
+  width: 100%;
+  height: 10%;
+}
+.navbarbrand{
+  color: coral;
+  font-size: 2rem;
+  margin-left: 10%;
+  text-align: center;
+}
+.collapse{
+  text-align: right;
+}
+.collapse li{
+  text-align: right;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  justify-content: right;
+  display: inline ;
+  
+}
+
+.collapse a{
+  color: palegoldenrod;
+  float: right;
+}
+.navitems{
+  display: flex;
+  text-align: center;
+  justify-content: right;
+  float: right;
+  margin-left: 900px;
+}
+
+a:hover{
+  color: orange;
+}
+.body{
+  text-align: center;
+  margin-top: 15rem;
+}
+.card{
+  background-color: #f7f7f7;
+}
+.container{
+  text-align: center;
+  
+  background-color: blanchedalmond;
+  width: 40%;
+  height: 100%;
+  margin-left: 28%;
+  
+  
+  
+}
+.card.card1{
+  height: 100%;
+}
+input{
+  width: 80%;
+  height: 20%;
+  padding: 10px;
+  display: inline;
+}
+.delete{
+  width: 20%;
+  height: 20%;
+  padding: 10px;
+  display: flex;
+}
+
