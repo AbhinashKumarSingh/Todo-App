@@ -1,7 +1,7 @@
 
 const mongoose=require('mongoose');
-const db='mongodb+srv://abhi:fXY9s8VfJj8DkjNH@cluster0.lme2e.mongodb.net/userdata?retryWrites=true&w=majority';
-mongoose.connect(db,{
+
+mongoose.connect(process.env.DB,{
     useNewUrlParser:true,
     
     useUnifiedTopology:true,

@@ -11,7 +11,7 @@ const app=express();
 // };
 
 //app.use(cors(corsOptions));
-dotenv.config({path:'./config.env'});
+dotenv.config({path:'./.env'});
 require('./db');
 const User=require('./models/schema');
  app.get('/',(req,res)=>{
