@@ -58,9 +58,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
@@ -82,6 +80,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 5.type "npm start" in terminal and run backend folder.
 
 In frontend
+
 1.First go to the client folder.
 2.Install react-dom,react-router-dom.
 3.type "npm start" in terminal and run client  folder.
